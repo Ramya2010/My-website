@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+background-image: url("cat bg5.jpg"); background-repeat: no-repeat; background-size: 100%;
+background-attachment: fixed;
+ /* Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: solid;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px black;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ffccff;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display:inline-block ;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #e600e6;}
+#taskbar{background-color:#e600e6; opacity: 0.7; border-color:#ffccff; border-spacing: 20px; box-shadow: 0px 8px 16px 0px  #ffccff ;
+ border-style: dotted;}
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #cccccc;
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: PURPLE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: PURPLE;
+  font-family: PURPLE;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #bf40bf;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: blue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#taskbar{background-color:#ffccff; opacity: 0.7; border-color:black; border-spacing: 20px; box-shadow: 0px 8px 16px 0px  #ffccff;}
+h3{margin-right: 100px; margin-left: 100px;border-style: solid; padding-left: 20px; padding-bottom: 20px; padding-top: 20px;
+padding-right:20px;}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+</style>
+</head>
+<body>
+	<div id="taskbar">
+    <h1><u><font face="Goudy Old Style" color="PURPLE">Yes I do!!</font></u></h1>
+
+<div class="navbar">
+<span style="font-size:22px;cursor:pointer;font-family:Goudy Old Style" onclick="openNav()">&#9776;Services</span>
+  <a href="TRY.html">Home</a>
+  <a href="login">Login</a>
+</div>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <A HREF="mehandi.html" >MEHANDI</A>
+  <A HREF="catering.html">CATERING</A>
+  <A HREF="flower.html">FLOWER DECORATION</A>
+  <A HREF="outfit.html">OUTFITS</A>
+  <A HREF="photo.html">PHOTOGRAPHY</A>
+  <A HREF="wedding.html">WEDDING</A>
+  </div>
+</div>
+
+	<h2><font face="Goudy Old Style" color="black"><u> HALDI Ceremony</u></font></h2>
+<div>
+<font face="Garamond" color=" #262626"><h3> Celebrated by the Bride's family, the Mehendi Ceremony is an amusing ritual observance that derives its origin from the Traditional Indian customs. In this ceremony, Mehendi is put in the hands and feet of the bride, in beautiful and intricate designs, especially done with the help of an expert. Mehendi mainly consists of henna paste.
+
+The entire ritual of Mehendi Ceremony has a deeper significance. It signifies love in a marriage and it is highly auspicious if the bride is able to retain her Mehendi for a longer time, since this indicates more love from her husband. The Mehendi Ceremony is accompanied with great merriment and dancing and the females take a major role in Mehendi Ceremony. Held before a couple of days before marriage, this function is lit up by the colorful dresses, vibrant music, enthusiastic dance and pulsating instrumentals that make it all the more charming.
+<br><br>
+FEW HALDI ARTISTS:
+<ul>
+<li><a href="https://bridalmehndidesigner.yolasite.com/" target="_self">https://bridalmehndidesigner.yolasite.com/</a></li>
+<li><a href="https://pranalimehandiworld.business.site/?utm_source=gmb&utm_medium=referral" target="_self">https://pranalimehandiworld.business.site/?utm_source=gmb&utm_medium=referral</a></li>
+<li><a href="http://www.shubhmuhuratmehendiarts.com/#" target="_self">http://www.shubhmuhuratmehendiarts.com/</a></li>
+<li><a href="https://www.wedmegood.com/profile/Pushpa-Mehndi-Arts-3150">https://www.wedmegood.com/profile/Pushpa-Mehndi-Arts-3150</a></li>
+<li><a href="https://www.wedmegood.com/profile/Neethas-Mehendi-Designs-795705">https://www.wedmegood.com/profile/Neethas-Mehendi-Designs-795705</a></li>
+<img src="haldi2.jpg" height="200 px" width="200 px" alt="Please wait for the image to load">
+<img src="haldi.jpg" height="200 px" width="200 px" alt="Please wait for the image to load">
+<img src="haldi3.jpg" height="200 px" width="200 px" alt="Please wait for the image to load">
+</ul>
+</font></h3>
+</div><br>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+</body>
+</html>

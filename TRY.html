@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+background-image: url("cat bg5.jpg"); background-repeat: no-repeat; background-size: 100%;
+background-attachment: fixed;
+ /* Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: solid;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px black;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ffccff;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display:inline-block ;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #e600e6;}
+#taskbar{background-color:#e600e6; opacity: 0.7; border-color:#ffccff; border-spacing: 20px; box-shadow: 0px 8px 16px 0px  #ffccff ;
+ border-style: dotted;}
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #cccccc;
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: PURPLE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: PURPLE;
+  font-family: PURPLE;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #bf40bf;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: blue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#taskbar{background-color:#ffccff; opacity: 0.7; border-color:black; border-spacing: 20px; box-shadow: 0px 8px 16px 0px  #ffccff;}
+h3{margin-right: 100px; margin-left: 100px;border-style: solid; padding-left: 20px; padding-bottom: 20px; padding-top: 20px;
+padding-right:20px;}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+</style>
+</head>
+<body>
+
+  <div id="taskbar">
+    <h1><u><font face="Goudy Old Style" color="PURPLE">Yes I do!!</font></u></h1>
+
+<div class="navbar">
+<span style="font-size:22px;cursor:pointer;font-family:Goudy Old Style" onclick="openNav()">&#9776;Services</span>
+  <a href="TRY.html">Home</a>
+  <a href="login">Login</a>
+</div>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <A HREF="mehandi.html" >MEHANDI</A>
+  <A HREF="catering.html">CATERING</A>
+  <A HREF="flower.html">FLOWER DECORATION</A>
+  <A HREF="outfit.html">OUTFITS</A>
+  <A HREF="photo.html">PHOTOGRAPHY</A>
+  <A HREF="haldi">HALDI FUNCTION</A>
+  <A HREF="wedding.html">WEDDING</A>
+  <A HREF="wedding.html">PRE- WEDDING PHOTOSHOOT</A>
+  </div>
+</div>
+
+    <font face="Garamond" color=" #262626"> 
+  <h3>Curating exceptional custom made weddings that reflect your personality & style.
+Purplerings has been planning weddings since 2010 with a vision to personalise every couples wedding. Attention to detail is of key importance to our team for the creation of a wedding experience that will last you a lifetime.
+
+With an office in Bangalore & Chennai, we also travel across India & the world to organize your dream destination wedding.</h3></font>
+  <center><video autoplay controls width="800px" height="500px" id="myVideo">
+    <source src="edited1.mp4" type="video/mp4">
+    error in playing video
+  </video></center>
+
+
+  <form color="black">
+    <fieldset disabled align="left">
+      <legend>TESTIMONIALS</legend>
+      
+      </fieldset>
+  </form>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+
+</script>
+</body>
+</html>
